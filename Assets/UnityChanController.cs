@@ -17,7 +17,7 @@ public class UnityChanController : MonoBehaviour
     private float MoveRange = 3.4f;
     private float EndStop = 0.99f;
 
-    private bool isEnd = false;
+    public bool isEnd = false;
     private bool LB = false;
     private bool RB = false;
     private bool JB = false;
